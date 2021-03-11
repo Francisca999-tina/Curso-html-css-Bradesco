@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listas</title>
+    <link rel="stylesheet" type="text/css" href="folhadeestilo.css">
 </head>
 
 <body>
@@ -37,10 +38,28 @@
 
     <hr>
 
-    <input type="radio" name="opcao" value="selectA" checked>Masculino
-    <input type="radio" name="opcao" value="selectB">Feminino
+    <label>Campo visivel</label>
+    <input type="text"><br>
+    <label>Campo invisivel</label>
+    <input type="hidden" name="pais" value="Brasil">
+
+    <hr>
+
+    <input type="checkbox" name="opcao" value="selectA" checked>clique para selecionar A<br>
+    <input type="checkbox" name="opcao" value="selectB">clique para selecionar B<br>
+
+    <hr>
+
     <button type="submit">Cadastrar</button>
     </form>
+
+    <hr>
+    <select>
+        <option value="verde">Verde</option>
+        <option value="vermelho">Vermelho</option>
+        <option value="azul">Azul</option>
+        <option value="alpha">Alpha</option>
+    </select>
 
     <ul>
        <li><a href="http://fundacao.bradesco/" target="blank">Fundação</a></li>

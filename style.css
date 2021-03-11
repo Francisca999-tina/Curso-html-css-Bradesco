@@ -1,0 +1,19 @@
+post {
+    color:green;  
+    font-size:30px;
+}
+body { 
+   background-image: url("imagem-banner-top");
+   background-color: 50px 50px;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: 450px 450px;
+}
+
+ul {
+    list-style-type: lower-alpha;
+
+}
+
+
+
