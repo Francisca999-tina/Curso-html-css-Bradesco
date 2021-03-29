@@ -12,6 +12,8 @@ body {
 
 ul {
     list-style-type: lower-alpha;
+    list-style-position: inside;
+    
 
 }
 
